@@ -60,7 +60,7 @@ function App() {
         <div className="right">
           {isLoading ? (
             <div className='loader'>
-              <ClipLoader color={"red"} loading={isLoading} size={50} />
+              <ClipLoader color={'#9B72F2'} loading={isLoading} size={50} />
             </div>
             
           ) : (
